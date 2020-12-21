@@ -1,0 +1,33 @@
+body {
+  background-color: var(--color-Very-Light-Gray);
+  font-family: 'Poppins', sans-serif;
+  color: var(--color-Very-Dark-Blue);
+}
+
+.hero {
+  &__heading {
+    font-weight: 200;
+    font-size: 35px;
+  }
+
+  span {
+    font-weight: 600;
+    font-size: 33px;
+    letter-spacing: .5px;
+
+  }
+
+  &__subheading {
+    font-weight: 400;
+    font-size: 17px;
+    color: var(--color-Grayish-Blue);
+  }
+}
+
+.bottom__card {
+  &-subheading {
+    color: var(--color-Grayish-Blue);
+    font-weight: 200;
+    font-size: 14px;
+  }
+}
